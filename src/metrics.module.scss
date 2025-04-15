@@ -1,0 +1,25 @@
+$primaryColor: #2a3150;
+$secundaryColor: #9aa0bf;
+$bodyColor: #f3f6f8;
+$textBodyColor: #2a3150;
+
+@mixin align-center-column() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@mixin justify-center-row() {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+:export {
+  primaryColor: $primaryColor;
+  secundaryColor: $secundaryColor;
+  bodyColor: $bodyColor;
+  textBodyColor: $textBodyColor
+}

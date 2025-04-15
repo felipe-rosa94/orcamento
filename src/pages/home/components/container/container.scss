@@ -1,0 +1,11 @@
+@import '../../../../metrics.module.scss';
+
+.container {
+  @include align-center-column();
+  height: 100dvh;
+  gap: 10px;
+
+  .button {
+    width: 265px;
+  }
+}

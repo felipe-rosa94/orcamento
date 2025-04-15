@@ -1,0 +1,35 @@
+@import '../../metrics.module';
+
+.dialog-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .box-title {
+    @include justify-center-row();
+    gap: 10px;
+  }
+
+  .icon {
+    color: $primaryColor;
+  }
+}
+
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+  .table-cell-icon {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      color: $primaryColor;
+    }
+  }
+
+  .table-cell {
+    color: #5a5a5a;
+  }
+}

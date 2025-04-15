@@ -1,0 +1,19 @@
+@import '../../metrics.module';
+
+.loading-page {
+  @include align-center-column();
+  height: 100dvh;
+
+  .container {
+    @include align-center-column();
+
+    .lottie {
+      width: 200px;
+      height: 200px;
+    }
+
+    .text {
+      color: $textBodyColor;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+
+
+const getSettings = () => {
+
+}
+
+export {getSettings}
