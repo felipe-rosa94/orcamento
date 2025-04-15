@@ -15,7 +15,7 @@ import './index.scss'
 createRoot(document.getElementById('root')!).render(
     <ThemeProvider theme={themeMui()}>
         <BrowserRouter>
-            <Suspense fallback={<LoadingPage text={'Aguarde...'}/>}>
+            <Suspense fallback={<LoadingPage text={'Aguarde... 1.0'}/>}>
                 <Routes>
                     <Route path='/' element={<Home/>}/>
                 </Routes>
